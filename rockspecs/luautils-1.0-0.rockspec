@@ -1,7 +1,7 @@
 package = "luautils"
 version = "1.0-0"
 source = {
-    url = "git+ssh://git@github.com:AHAOAHA/luautils.git"
+    url = "git+ssh://git@github.com:AHAOAHA/luautils.git",
     branch = "develop"
 }
 description = {
