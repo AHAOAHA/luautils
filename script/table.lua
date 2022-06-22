@@ -53,7 +53,7 @@ function tu:Copy(obj, seen)
     local res = setmetatable({}, getmetatable(obj))
     s[obj] = res
     for k, v in pairs(obj) do
-        res[self:copy(k, s)] = self:copy(v, s)
+        res[self:Copy(k, s)] = self:Copy(v, s)
     end
     return res
 end
